@@ -6,7 +6,7 @@ local multitarget = require("../lune_packages/multitarget")
 local result = multitarget.build(
     "pesde.toml",
     {
-        luau = true;
+        -- luau = true;
         lune = true;
         roblox = true;
     },
