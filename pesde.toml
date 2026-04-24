@@ -4,6 +4,7 @@ description = "a simple Result<T, E> implemantaion"
 authors = ["word30210"]
 repository = "https://github.com/Word30210/luau-result"
 license = "MIT"
+includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
 
 [engines]
 pesde = "^0.7.1"
