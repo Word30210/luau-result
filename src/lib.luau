@@ -31,7 +31,7 @@ local function is(value: unknown): boolean
 end
 
 --- Constructs a new 'Ok' Result.
-local function ok<T>(value: T): Result<T, unknown>
+local function ok<T>(value: T): Result<T, any>
     return setmetatable(
         {
             _ok = true;
@@ -43,7 +43,7 @@ local function ok<T>(value: T): Result<T, unknown>
 end
 
 --- Constructs a new 'Err' Result.
-local function err<E>(error: E): Result<unknown, E>
+local function err<E>(error: E): Result<any, E>
     return setmetatable(
         {
             _ok = false;
