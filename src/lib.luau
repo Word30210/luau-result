@@ -135,12 +135,12 @@ function Result.unpack<T, E>(self: Result<T, E>): (T, E)
 end
 
 --- Returns the contained 'Ok' value if the result is 'Ok'; Otherwise, returns nil.
-function Result.unpack_ok<T, E>(self: Result<T, E>): T?
+function Result.unpack_ok<T, E>(self: Result<T, E>): T
     return self._v
 end
 
 --- Returns the contained 'Err' value if the result is 'Err'; Otherwise, returns nil.
-function Result.unpack_err<T, E>(self: Result<T, E>): E?
+function Result.unpack_err<T, E>(self: Result<T, E>): E
     return self._e
 end
 
