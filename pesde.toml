@@ -1,5 +1,5 @@
 name = "word30210/luau_result"
-version = "0.1.2"
+version = "0.1.3"
 description = "a simple Result<T, E> implemantaion"
 authors = ["word30210"]
 repository = "https://github.com/Word30210/luau-result"
